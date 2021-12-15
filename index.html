@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>CSS Cheatsheet</title>
+</head>
+
+<body class="d-f fxd-c ">
+    <!-- header -->
+    <header class="p ta-c ">
+        <h1 class="fz+">CSS Snippet Cheatsheet</h1>
+        <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it
+            to
+            this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
+    </header>
+
+    <!-- six boxes with content-->
+    <main class="d-f fx-1 fxw-w g p">
+        <section class="out-1 p bxs-1-hv fx-1 pos-r trn-1 miw-100@sml miw-45@lrg">
+            <h2 class="bgc-blk brd-2 brdr- l-50 p- pos-a t-n1p5 trf-1">Flexbox Row</h2>
+            <p class="pv-">Use these three properties to create a Flexbox row layout</p>
+            <pre class="bgg-1 p us-all-a"><code class="ff-monospace">.row {  
+    display: flex;  
+    flex-direction: row;  
+    flex-wrap: wrap;
+    } </code></pre>
+        </section>
+
+        <section class="out-1 p bxs-1-hv fx-1 pos-r trn-1 miw-100@sml miw-45@lrg">
+            <h2 class="bgc-blk brd-2 brdr- l-50 p- pos-a t-n1p5 trf-1">Flexbox Column</h2>
+            <p class="pv-">Use this to create a Flexbox column layout</p>
+            <pre class="bgg-1 p us-all-a"><code class="ff-monospace">.column {  
+    display: column;  
+    flex-direction: column;  
+    } </code></pre>
+        </section>
+
+
+        <section class="out-1 p bxs-1-hv fx-1 pos-r trn-1 miw-100@sml miw-45@lrg">
+            <h2 class="bgc-blk brd-2 brdr- l-50 p- pos-a t-n1p5 trf-1">CSS Grid Layout</h2>
+            <p class="pv-">Build a 12-column layout using CSS Grid</p>
+            <pre class="bgg-1 p us-all-a"><code class="ff-monospace">.grid {  
+    display: grid;  
+    width: 100%;  
+    grid-template-columns:
+    repeat(12, 1fr);
+    } </code></pre>
+        </section>
+
+
+        <section class="out-1 p bxs-1-hv fx-1 pos-r trn-1 miw-100@sml miw-45@lrg">
+            <h2 class="bgc-blk brd-2 brdr- l-50 p- pos-a t-n1p5 trf-1">Linear Gradients</h2>
+            <p class="pv-">This will create a background linear gradient from top to bottom.</p>
+            <pre class="bgg-1 p us-all-a"><code class="ff-monospace">.linear-gradient-background {  
+    background-image: linear-gradient(
+        rgba(232, 102, 236, 0.3) 0%
+        rgba(232, 102, 236, 0.6)
+        100%
+    ) ; 
+    } </code></pre>
+        </section>
+
+
+        <section class="out-1 p bxs-1-hv fx-1 pos-r trn-1 miw-100@sml miw-45@lrg">
+            <h2 class="bgc-blk brd-2 brdr- l-50 p- pos-a t-n1p5 trf-1">Box Transition Glow</h2>
+            <p class="pv-">Use transition and box shadows to glow on hover.</p>
+            <pre class="bgg-1 p us-all-a"><code class="ff-monospace">.code-card .cardhrader {  
+    border-radius: 8px;  
+    transition: all 0.5s ease-in-out;
+    }  
+    code-card:hover,
+    .code-card:hover .card-header {
+        box-shadow: inset 0px 0px 8px
+    rgba(232, 102, 236, 1), 0 0 15px
+    rgba(232, 102, 236, 1)
+    }
+    } </code></pre>
+
+        </section>
+        <section class="out-1 p bxs-1-hv fx-1 pos-r trn-1 miw-100@sml miw-45@lrg">
+            <h2 class="bgc-blk brd-2 brdr- l-50 p- pos-a t-n1p5 trf-1">Overlay Card with Title</h2>
+            <p class="pv-">Use position properties and negative margins to raise elements higher than their natural
+                starting point.</p>
+            <pre class="bgg-1 p us-all-a"><code class="ff-monospace">.card-header {  
+    position: relative;
+    margin-top: -20px:
+    } </code></pre>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="bgc-dkorchid p ta-c">
+        <p>Made with ❤️ and CSS</p>
+    </footer>
+
+
+
+</body>
+
+</html>
